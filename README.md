@@ -92,7 +92,7 @@ Please download and prepare the following training datasets:
 - To download [BraTS 2023](https://www.synapse.org/Synapse:syn51156910/wiki/621282), simply create an account on Synapse and register for the challenge on the official website (register through [BraTS-Lighthouse 2025 Challenge](https://www.synapse.org/Synapse:syn64153130/wiki/631048) now).
 
 
-After downloading and extracting, the data is organized under the following structure:
+After downloading and extracting, the data is organized under the following structure (Here, we use BraTS 2020 as an example, same layout applies to other datasets):
 ```
 your_data_path/
 └── MICCAI_BraTS2020_TrainingData/
