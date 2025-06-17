@@ -1,13 +1,17 @@
 <table>
 <tr>
 <td align="left">
-  <h1><em>[IEEE TMI 2025]</em> HFF: Rethinking Brain Tumor Segmentation from the Frequency Domain Perspective</h3>
+  <h1 style="margin: 0;">
+    <em>IEEE TMI 2025</em><br>
+    HFF: Rethinking Brain Tumor Segmentation from the Frequency Domain Perspective
+  </h1>
 </td>
 <td align="right">
-  <img src="figs/hff_logo.png" alt="logo" width="180">
+  <img src="figs/hff_logo.png" alt="logo" width="280">
 </td>
 </tr>
 </table>
+
 
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-red.svg)](https://www.arxiv.org/abs/2506.10142)
