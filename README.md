@@ -1,12 +1,13 @@
-<a id="logo-header"></a>
-<p align="left" style="display: flex; justify-content: space-between; align-items: center;">
-  <span style="font-size: 26px; font-weight: bold;">
-    <em>[IEEE TMI 2025]</em> HFF: Rethinking Brain Tumor Segmentation from the Frequency Domain Perspective
-  </span>
-  <span style="text-align: right;">
-    <img src="figs/hff_logo.png" alt="logo" width="250"><br>
-  </span>
-</p>
+<table>
+<tr>
+<td align="left">
+  <h1><em>[IEEE TMI 2025]</em> HFF: Rethinking Brain Tumor Segmentation from the Frequency Domain Perspective</h3>
+</td>
+<td align="right">
+  <img src="figs/hff_logo.png" alt="logo" width="180">
+</td>
+</tr>
+</table>
 
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-red.svg)](https://www.arxiv.org/abs/2506.10142)
@@ -16,30 +17,32 @@
 [![BibTeX](https://img.shields.io/badge/BibTeX-Cite-blueviolet.svg)](#citation)
 
 
-Official implementation of the IEEE Transactions on Medical Imaging paper [Rethinking Brain Tumor Segmentation from the Frequency Domain Perspective](https://www.arxiv.org/abs/2506.10142), provided by [Minye Shao](www.linkedin.com/in/minyeshao).
+Official implementation of the IEEE Transactions on Medical Imaging paper [Rethinking Brain Tumor Segmentation from the Frequency Domain Perspective](https://www.arxiv.org/abs/2506.10142), provided by [Minye Shao](https://www.linkedin.com/in/minyeshao/).
 
 
 
 ## TL;DR
 
-<div style="display: flex; align-items: stretch; gap: 20px;">
-  <!-- 左侧文字 -->
-  <div id="text-block" style="flex: 1;">
-    <div style="margin: 0;">
-      <strong>HFF-Net</strong> is proposed to address the persistent <strong>performance degradation in segmenting contrast-enhancing tumor (ET) regions in brain MRI</strong>, a task often compromised by low inter-modality contrast, heterogeneous intensity profiles, and indistinct anatomical boundaries. Built upon a frequency-aware dual-branch architecture, HFF-Net disentangles and fuses complementary feature representations through <strong>Dual-Tree Complex Wavelet Transform (DTCWT)</strong> for capturing shift-invariant low-frequency structure and <strong>Nonsubsampled Contourlet Transform (NSCT)</strong> for extracting high-frequency, multi-directional textural details. Integrated with adaptive Laplacian convolution (ALC) and frequency-domain cross-attention (FDCA), the framework significantly enhances the discriminability of ET subregions, offering precise and robust delineation across diverse MRI modalities.
-    </div>
-  </div>
+<table>
+<tr>
+<td>
 
-  <!-- 右侧图片，完全显示内容，不裁剪 -->
-  <div style="flex: 0 0 35%; display: flex; flex-direction: column; align-items: center; justify-content: flex-start;">
-    <img src="figs/problem.jpg" alt="HFF-Net Comparison"
-         style="max-height: 100%; max-width: 100%; height: auto; width: auto; object-fit: contain;">
-    <div style="font-size: 12px; font-style: italic; color: gray; text-align: center; margin-top: 5px;">
-      Figure: Comparison of our method and prior work in a complex glioma case,<br>
-      highlighting improved segmentation of the ET region using fused frequency-domain features.
-    </div>
-  </div>
-</div>
+**HFF-Net** is proposed to address the persistent **performance degradation in segmenting contrast-enhancing tumor (ET) regions in brain MRI**, a task often compromised by low inter-modality contrast, heterogeneous intensity profiles, and indistinct anatomical boundaries. Built upon a frequency-aware dual-branch architecture, HFF-Net disentangles and fuses complementary feature representations through **Dual-Tree Complex Wavelet Transform (DTCWT)** for capturing shift-invariant low-frequency structure and **Nonsubsampled Contourlet Transform (NSCT)** for extracting high-frequency, multi-directional textural details. Integrated with adaptive Laplacian convolution (ALC) and frequency-domain cross-attention (FDCA), the framework significantly enhances the discriminability of ET subregions, offering precise and robust delineation across diverse MRI modalities.
+
+</td>
+<td width="35%" align="center">
+
+<img src="figs/problem.jpg" alt="HFF-Net Comparison" style="max-width:100%; height:auto;">
+
+<em style="font-size:12px; color:gray; text-align:center; display:block; margin-top:5px;">
+Figure: Comparison of our method and prior work in a complex glioma case,  
+highlighting improved segmentation of the ET region using fused frequency-domain features.
+</em>
+
+</td>
+</tr>
+</table>
+
 
 
 
