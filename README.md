@@ -34,11 +34,11 @@ Official implementation of the IEEE Transactions on Medical Imaging paper [Rethi
 **HFF-Net** is proposed to address the persistent **performance degradation in segmenting contrast-enhancing tumor (ET) regions in brain MRI**, a task often compromised by low inter-modality contrast, heterogeneous intensity profiles, and indistinct anatomical boundaries. Built upon a frequency-aware dual-branch architecture, HFF-Net disentangles and fuses complementary feature representations through **Dual-Tree Complex Wavelet Transform (DTCWT)** for capturing shift-invariant low-frequency structure and **Nonsubsampled Contourlet Transform (NSCT)** for extracting high-frequency, multi-directional textural details. Integrated with adaptive Laplacian convolution (ALC) and frequency-domain cross-attention (FDCA), the framework significantly enhances the discriminability of ET subregions, offering precise and robust delineation across diverse MRI modalities.
 
 </td>
-<td width="35%" align="center">
+<td width="45%" align="center">
 
 <img src="figs/problem.jpg" alt="HFF-Net Comparison" style="max-width:100%; height:auto;">
 
-<em style="font-size:12px; color:gray; text-align:center; display:block; margin-top:5px;">
+<em style="font-size:2px; color:gray; text-align:center; display:block; margin-top:5px;">
 Figure: Comparison of our method and prior work in a complex glioma case,  
 highlighting improved segmentation of the ET region using fused frequency-domain features.
 </em>
@@ -58,7 +58,7 @@ highlighting improved segmentation of the ET region using fused frequency-domain
 
 
 
-(a) Architecture of our HFF-Net: A multimodal dual-branch network decomposing and integrating multi-directional HF and LF MRI features with three components: ALC, FDCA, and FDD. It uses $\mathcal{L}_{\textit{unsup}}$ for output consistency between branches and $\mathcal{L}_{\textit{sup}}^\textit{H,L}$ to align each branch's main and side outputs with ground truth. (b) Our ALC uses elastic weight consolidation to dynamically update weights, maintaining HF filtering functionality while extracting features from multimodal and multi-directional inputs. (c) FDCA enhances the extraction and processing of anisotropic volumetric features in MRI images through multi-dimensional cross-attention mechanisms in the frequency domain. (d) FDD processes multi-sequence MRI slices by decomposing them into HF and LF inputs using distinct frequency domain transforms. (e) The fusion block integrates the deep HF and LF features from the deep layers during the encoding process.
+(a) Architecture of our HFF-Net: A multimodal dual-branch network decomposing and integrating multi-directional HF and LF MRI features with three components: ALC, FDCA, and FDD. It uses **L**<sub><em>unsup</em></sub> for output consistency between branches and **L**<sub><em>sup</em></sub><sup><em>H,L</em></sup> to align each branch's main and side outputs with ground truth. (b) Our ALC uses elastic weight consolidation to dynamically update weights, maintaining HF filtering functionality while extracting features from multimodal and multi-directional inputs. (c) FDCA enhances the extraction and processing of anisotropic volumetric features in MRI images through multi-dimensional cross-attention mechanisms in the frequency domain. (d) FDD processes multi-sequence MRI slices by decomposing them into HF and LF inputs using distinct frequency domain transforms. (e) The fusion block integrates the deep HF and LF features from the deep layers during the encoding process.
 
 ---
 
@@ -105,7 +105,6 @@ your_data_path/
     ├── BraTS20_Training_002/
     ├── ...
     └── BraTS20_Training_369/
-
 ```
 ---
 ### 2. Frequency Decomposition
