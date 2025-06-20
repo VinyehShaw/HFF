@@ -60,6 +60,17 @@ highlighting improved segmentation of the ET region using fused frequency-domain
 
 (a) Architecture of our HFF-Net: A multimodal dual-branch network decomposing and integrating multi-directional HF and LF MRI features with three components: ALC, FDCA, and FDD. It uses **L**<sub><em>unsup</em></sub> for output consistency between branches and **L**<sub><em>sup</em></sub><sup><em>H,L</em></sup> to align each branch's main and side outputs with ground truth. (b) Our ALC uses elastic weight consolidation to dynamically update weights, maintaining HF filtering functionality while extracting features from multimodal and multi-directional inputs. (c) FDCA enhances the extraction and processing of anisotropic volumetric features in MRI images through multi-dimensional cross-attention mechanisms in the frequency domain. (d) FDD processes multi-sequence MRI slices by decomposing them into HF and LF inputs using distinct frequency domain transforms. (e) The fusion block integrates the deep HF and LF features from the deep layers during the encoding process.
 
+<div align=center>  
+<img src='figs/results.png' width="70%">
+</div>
+
+Some experimental results are presented below for illustration. For more details, please refer to our paper.
+
+
+
+
+
+
 ---
 
 ## 🛠️ Install Dependencies
