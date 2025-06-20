@@ -64,7 +64,7 @@ highlighting improved segmentation of the ET region using fused frequency-domain
 <img src='figs/results.jpg' width="70%">
 </div>
 
-Some experimental results are presented below for illustration. For more details, please refer to our paper.
+Some experimental results for illustration. For more details, please refer to our paper.
 
 
 
