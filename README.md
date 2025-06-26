@@ -21,8 +21,7 @@
 [![BibTeX](https://img.shields.io/badge/BibTeX-Cite-blueviolet.svg)](#citation)
 
 
-Official implementation of the IEEE Transactions on Medical Imaging paper [Rethinking Brain Tumor Segmentation from the Frequency Domain Perspective](https://www.arxiv.org/abs/2506.10142), provided by [Minye Shao](https://www.linkedin.com/in/minyeshao/).
-
+Official implementation of the IEEE Transactions on Medical Imaging paper [Rethinking Brain Tumor Segmentation from the Frequency Domain Perspective](https://www.arxiv.org/abs/2506.10142), provided by [Minye Shao](https://www.linkedin.com/in/minyeshao/). 
 
 
 ## TL;DR
@@ -244,7 +243,7 @@ Both NSCT and DTCWT offer powerful frequency-domain signal processing tools that
 ```
 
 ## Acknowledgments
-
+Thanks to [Zeyu Wang](https://scholar.google.com.hk/citations?user=DQ5Rx4AAAAAJ&hl=zh-CN) for his guidance and support throughout this work.
 This repo is based in part on the works of [Zhou et al. (ICCV 2023)](https://openaccess.thecvf.com/content/ICCV2023/html/Zhou_XNet_Wavelet-Based_Low_and_High_Frequency_Fusion_Networks_for_Fully-_ICCV_2023_paper.html) and [Ganasala et al. (JDI 2014)](https://link.springer.com/article/10.1007/s10278-013-9664-x). We thank the authors for their valuable contributions, which inspired and guided our implementation.
 
 
