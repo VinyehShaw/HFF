@@ -240,7 +240,6 @@ Both NSCT and DTCWT offer powerful frequency-domain signal processing tools that
   pages={4536-4553},
   keywords={Frequency-domain analysis;Tumors;Brain tumors;Magnetic resonance imaging;Three-dimensional displays;Biomedical imaging;Imaging;Feature extraction;Electronic mail;Convolution;Brain tumor segmentation;frequency domain;multi-modal feature fusion},
   doi={10.1109/TMI.2025.3579213}}
-
 ```
 
 ## Acknowledgments
