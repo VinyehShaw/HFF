@@ -233,13 +233,14 @@ Both NSCT and DTCWT offer powerful frequency-domain signal processing tools that
 @ARTICLE{11032150,
   author={Shao, Minye and Wang, Zeyu and Duan, Haoran and Huang, Yawen and Zhai, Bing and Wang, Shizheng and Long, Yang and Zheng, Yefeng},
   journal={IEEE Transactions on Medical Imaging}, 
-  title={Rethinking Brain Tumor Segmentation from the Frequency Domain Perspective}, 
+  title={Rethinking Brain Tumor Segmentation From the Frequency Domain Perspective}, 
   year={2025},
-  volume={},
-  number={},
-  pages={1-1},
-  keywords={Frequency-domain analysis;Tumors;Brain tumors;Magnetic resonance imaging;Three-dimensional displays;Biomedical imaging;Imaging;Feature extraction;Electronic mail;Convolution;Brain tumor segmentation;Frequency domain;Multi-modal feature fusion},
+  volume={44},
+  number={11},
+  pages={4536-4553},
+  keywords={Frequency-domain analysis;Tumors;Brain tumors;Magnetic resonance imaging;Three-dimensional displays;Biomedical imaging;Imaging;Feature extraction;Electronic mail;Convolution;Brain tumor segmentation;frequency domain;multi-modal feature fusion},
   doi={10.1109/TMI.2025.3579213}}
+
 ```
 
 ## Acknowledgments
